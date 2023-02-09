@@ -28,6 +28,7 @@ const Card = () => {
       <p className="bio">{bio}</p>
       <div className="links">
         <p>
+          
           <MdBusiness/> {company}
         </p>
         <p>
@@ -59,7 +60,6 @@ const Wrapper = styled.article`
     padding: 0.5rem 1rem 0 1rem;
     letter-spacing: var(--spacing);
     font-size: 1rem;
-    margin: .75em 0;
   }
   header {
     display: grid;
